@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+button{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  padding: 8px 15px;
+  border: 2px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+
+.container{
+  display: flex;
+
+}
+
+.hex-container, .rgb-container{
+  min-height: 100vh;
+  flex: 1;
+}
+
+.hex-container{
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.hex-value{
+  font-weight: 500;
+}
+
+.rgb-container{
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+label{
+  font-weight: 500;
+}
