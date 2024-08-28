@@ -42,7 +42,7 @@ button{
   align-items: center;
 }
 
-.hex-value{
+.hex-value, .rgb-value{
   font-weight: 500;
 }
 
